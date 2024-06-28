@@ -4,7 +4,6 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-RUN npm start
 # Serve with Nginx
 FROM nginx:1.23-alpine
 WORKDIR /usr/share/nginx/html
