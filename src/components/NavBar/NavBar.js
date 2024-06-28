@@ -14,7 +14,6 @@ import logoImg from "../../assets/images/logo.webp";
 import userImg from "../../assets/images/user.png";
 
 import styles from "./NavBar.module.scss";
-import { BASE_URL } from "../../config/utils";
 const cx = classNames.bind(styles);
 function NavBar() {
   const { setOpenCart, openCart, amount } = useContext(CartContext);
