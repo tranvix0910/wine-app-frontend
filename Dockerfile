@@ -9,7 +9,6 @@ ENV CI=true
 ENV PORT=3000
 CMD [ "npm", "start" ]
 FROM development AS build
-RUN npm start
 
 # 2. For Nginx setup
 FROM nginx:alpine
